@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+     <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title>Registration form</title>
+          <link rel="icon" type="image/jpg" href="..//OLS/img/ds.png">
+          <script src="js/regis.js"></script>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="css/regis.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     </head>
+     <body>
+          <div class="container">
+               <div class="header">
+                    <h2><u>Create An Account</u></h2>
+                    <form action="" class="form" onsubmit="return validate()" id="form">
+                         <div class="form-control">
+                              <label>First Name</label>
+                              <input type="text" required>
+                         </div>
+                         <div class="form-control" >
+                              <label>Last Name</label>
+                              <input type="text" required>
+                              
+                         </div>
+                         <div class="form-control">
+                              <label>College Name</label>
+                              <input type="text" required>
+                         </div>
+                         <div class="form-control">
+                              <label>College-ID</label>
+                              <input type="text">
+                         </div>
+                         <div class="form-control success">
+                              <label>Username</label>
+                              <input type="text" placeholder="xyz123" id="username" required>
+                              <i class="fa fa-check"></i>
+                              <i class="fa fa-exclamation-circle"></i>
+                              <small>Error Message</small>
+                         </div>
+                         <div class="form-control error">
+                              <label>Email-Id</label>
+                              <input type="email" placeholder="xyz@123.com" id="email" required>
+                              <i class="fa fa-check"></i>
+                              <i class="fa fa-exclamation-circle"></i>
+                              <small>Error Message</small>
+                         </div>
+                         <div class="form-control">
+                              <label>Password</label>
+                              <input type="password" placeholder="password" id="password" required>
+                              <i class="fa fa-check"></i>
+                              <i class="fa fa-exclamation-circle"></i>
+                              <small>Error Message</small>
+                         </div>
+                         <div class="form-control">
+                              <label>Re-enter Password</label>
+                              <input type="password" placeholder="Re-enter Password" id="Rpass" required>
+                              <i class="fa fa-check"></i>
+                              <i class="fa fa-exclamation-circle"></i>
+                              <small>Error Message</small>
+                         </div>
+                         <button onclick="submit">Submit</button>
+                    </form>
+               </div>
+          </div>
+                    
+                      
+
+
+
+
+               </form>
+          </section>
+          
+          
+     </body>
+</html>
